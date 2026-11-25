@@ -1,0 +1,22 @@
+# CMake / build output (rebuild locally; .bin is produced by every build)
+build/
+**/build/
+CMakeFiles/
+CMakeCache.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# Keep shared VS Code project settings, drop personal ones
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
